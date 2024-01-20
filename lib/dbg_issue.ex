@@ -14,6 +14,7 @@ defmodule DbgIssue do
   """
   def hello do
     dbg()
+    require IEx; IEx.pry
     :world
   end
 end
