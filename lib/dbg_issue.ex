@@ -13,6 +13,7 @@ defmodule DbgIssue do
 
   """
   def hello do
+    dbg()
     :world
   end
 end
